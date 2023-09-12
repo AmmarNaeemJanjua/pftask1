@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080c24;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-left: 80px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.navbar-expand-lg .navbar-nav {
+    margin-right: 80px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+}
+
+.TopContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LeftSideContent{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.HeroSection {
+    margin-left: 15px;
+    margin-right: 80px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.SiteHeadingOne {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.AccentColor {
+    color: #1290d9;
+}
+
+.SiteHeroParagraph {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.CTAButton, .PricingButton, .AppButton, .SellButton, .btn{
+    background-color: #2a1095;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.SellNFTsCTAButton {
+    background-color: #080c24;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.CTAButton:hover, .SellNFTsCTAButton:hover, .nav-link:hover {
+    background-color: #572494;
+}
+
+.FeaturedOnContent {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.FeaturedOnTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.FeaturedOnLogos img {
+    width: 100px;
+    margin: 0 20px;
+}
+
+.AnalyticsSection, .AppSection, .SellSection{
+    display: flex;
+    margin-left: 15px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+.TestimonialSection{
+    margin-top: 20px;
+    text-align
+    : center;
+}
+h2, h5, p{
+    color: white;
+}
+
+.TestimonialSlider{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.CTASection{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.textandbutton{
+    display: flex;
+}
+.form-control{
+    margin-top: 25px;
+    margin-right: 10px;
+    border-radius: 25px;
+}
+.form-control{
+    width: auto;
+}
+
+.py-5{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-left: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 10px;
+    }
+
+    .HeroSection {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 30px 0;
+    }
+
+    .SiteHeadingOne {
+        font-size: 28px;
+    }
+
+    .SiteHeroParagraph {
+        font-size: 16px;
+    }
+
+    .CTAButton, .SellNFTsCTAButton, .PricingButton, .AppButton, .SellButton, .btn, .nav-item {
+        font-size: 16px;
+        padding: 8px 16px;
+        margin-top: 10px;
+    }
+
+    .FeaturedOnTitle {
+        font-size: 20px;
+    }
+
+    .FeaturedOnLogos img {
+        width: 80px;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .navbar-brand {
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin-right: 10px;
+    }
+
+    .HeroSection {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 20px 0;
+    }
+
+    .SiteHeadingOne {
+        font-size: 24px;
+    }
+
+    .SiteHeroParagraph {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .CTAButton, .SellNFTsCTAButton, .PricingButton, .AppButton, .SellButton, .btn, .nav-item {
+        font-size: 16px;
+        padding: 8px 16px;
+        margin-top: 10px;
+    }
+
+    .FeaturedOnTitle {
+        font-size: 20px;
+    }
+
+    .FeaturedOnLogos img {
+        width: 80px;
+        margin: 0 10px;
+    }
+
+    .py-5 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
